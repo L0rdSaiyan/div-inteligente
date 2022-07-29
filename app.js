@@ -1,6 +1,3 @@
-
-
-
 function sob(){
 
     let elemento = document.getElementById("btn")
@@ -18,7 +15,6 @@ function sair(){
 
 }
 
-
 function sair2(){
 
     let elemento = document.getElementById("btn")
@@ -34,7 +30,6 @@ function sair3(){
     elemento.style.backgroundColor = 'black'
     elemento.style.color = 'black'
 
-
 }
 
 
@@ -46,19 +41,18 @@ function segurar(){
     elemento.style.color = 'red'
     elemento.innerHTML = "<h2>KOÉ MANÉ, ME SOLTA!</h2>"
 
-
 }
 
 function soltar(){
 
-let elemento = document.getElementById("btn")
-elemento.innerHTML = "<h2>UFA! NÃO FAÇA</h2> <h2>DE NOVO!</h2>"
-elemento.style.backgroundColor = 'green';
-elemento.style.color = 'white'
-
+    let elemento = document.getElementById("btn")
+    elemento.innerHTML = "<h2>UFA! NÃO FAÇA</h2> <h2>DE NOVO!</h2>"
+    elemento.style.backgroundColor = 'green';
+    elemento.style.color = 'orange'
 
 }
 
+/*
 function cocegas(){
 
 let elemento = document.getElementById("btn")
@@ -68,19 +62,18 @@ elemento.style.color = 'white'
 
 }
 
+DEVIDO À CONFLITOS ENTRE A FUNÇÃO COCEGAS() E A FUNÇÃO SOB(), A FUNÇÃO COCEGAS FOI DESABILITADA
+
+*/  
 
 function clickar(){
 
+    let elemento = document.getElementById("btn")
 
-let elemento = document.getElementById("btn")
-
-elemento.style.backgroundColor = 'red'
-elemento.innerHTML = "<h2>EU FALEI</h2> <h2>KKKKKKKKKKKK</h2>"
-
-
-let music = document.getElementById("som")
-music.play();
-music.volume = 999999999999  //we do a little trolling 
-
+    elemento.style.backgroundColor = 'red'
+    elemento.innerHTML = "<h2>EU FALEI</h2> <h2>KKKKKKKKKKKK</h2>"
+    let music = document.getElementById("som")
+    music.play();
+    music.volume = 999999999999  //we do a little trolling 
 
 }
