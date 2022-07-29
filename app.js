@@ -32,7 +32,7 @@ function sair3(){
     let elemento = document.getElementById("btn")
     elemento.innerHTML = "<h2>NÃO CLIQUE</h2> <h2>EM</h2> <h2>MIM!</h2>"
     elemento.style.backgroundColor = 'black'
-    elemento.style.color = 'red'
+    elemento.style.color = 'black'
 
 
 }
