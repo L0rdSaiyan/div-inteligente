@@ -64,6 +64,23 @@ function cocegas(){
 let elemento = document.getElementById("btn")
 elemento.style.backgroundColor = 'blue'
 elemento.innerHTML = "<h2>KKKK PARA!</h2> <h2>FAZ COSCA</h2>"
+elemento.style.color = 'white'
+
+}
+
+
+function clickar(){
+
+
+let elemento = document.getElementById("btn")
+
+elemento.style.backgroundColor = 'red'
+elemento.innerHTML = "<h2>EU FALEI</h2> <h2>KKKKKKKKKKKK</h2>"
+
+
+let music = document.getElementById("som")
+music.play();
+music.volume = 999999999999  //we do a little trolling 
 
 
 }
